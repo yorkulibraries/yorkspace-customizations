@@ -1,3 +1,6 @@
-*.bk
-*.bak
-*.bak*
+*
+!README.md
+!LICENSE
+!modules/xmlui-mirage2/src/main/webapp/*
+!config/local.cfg.template
+!config/news-xmlui.xml
