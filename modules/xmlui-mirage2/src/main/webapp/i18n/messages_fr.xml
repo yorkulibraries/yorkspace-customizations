@@ -24,9 +24,9 @@
 		--> 
 
  <!-- YorkSpace Custom Keys -->
-        <message key="xmlui.custom.welcome_heading">Welcome to Yorkspace</message>
-        <message key="xmlui.custom.welcome_message">YorkSpace is York University's Institutional Repository. It is a platform that enables York community members to organize and preserve their research online in an institutional context. It showcases the scholarship of the York University community through the use of a special standards-based software platform that collects usage statistics and provides exceptional visibility on the web.</message>
-        <message key="xmlui.custom.welcome_learn_more">To learn more about YorkSpace, visit the</message>
+        <message key="xmlui.custom.welcome_heading">Bienvenue à YorkSpace</message>
+        <message key="xmlui.custom.welcome_message">YorkSpace est le dépôt numérique de l'Université York. Il s'agit d’une plateforme qui donne un espace pour les membres de la communauté de York d’organiser et de préserver leur recherche dans un contexte institutionnel en ligne.  Il expose l'érudition de la communauté de l'Université York sur une plate-forme logicielle standardisée qui recueille des statistiques sur l'utilisation assurant ainsi sa diffusion et sa visibilité accru en ligne.</message>
+        <message key="xmlui.custom.welcome_learn_more">Pour en apprendre d’avantage sure YorkSpace, visitez </message>
         <message key="xmlui.custom.welcome_learn_more.link">YorkSpace Resource Site</message>
 	
 	<!-- General keys -->
@@ -34,7 +34,7 @@
 	<message key="xmlui.general.addbutton">Ajouter</message>
 	<message key="xmlui.general.dspace_home">Accueil de YorkSpace</message>
 	<message key="xmlui.general.search">Recherche</message>
-	<message key="xmlui.general.go">Aller</message>
+	<message key="xmlui.general.go">OK</message>
 	<message key="xmlui.general.go_home">Aller &#224; la page d'accueil de YorkSpace</message>
 	<message key="xmlui.general.save">Sauvegarder</message>
 	<message key="xmlui.general.cancel">Annuler</message>
@@ -267,11 +267,12 @@
 	<!-- org.dspace.app.xmlui.artifactbrowser.Navigation.java -->
 	<message key="xmlui.ArtifactBrowser.Navigation.head_browse">Parcourir</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.head_all_of_dspace">Tout YorkSpace</message>
-	<message key="xmlui.ArtifactBrowser.Navigation.communities_and_collections">Communaut&#233;s &amp; Collections</message>
+	<message key="xmlui.ArtifactBrowser.Navigation.communities_and_collections">Communaut&#233;s et collections</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.browse_title">Titres</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.browse_author">Auteurs</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.browse_subject">Sujets</message>
-	<message key="xmlui.ArtifactBrowser.Navigation.browse_dateissued">Par date de publication</message>
+	<!-- <message key="xmlui.ArtifactBrowser.Navigation.browse_dateissued">Par date de publication</message> -->
+	<message key="xmlui.ArtifactBrowser.Navigation.browse_dateissued">Date</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.browse_dateaccessioned">Par date de soumission</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.head_this_collection">Cette collection</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.head_this_community">Cette communaut&#233;</message>
@@ -1641,7 +1642,7 @@
 	<message key="xmlui.administrative.mapper.MapperMain.para2">Cet outil d'association de documents permet aux administrateurs de collection d'associer des documents provenant d'autres collections dans cette collection. Vous pouvez rechercher des documents d'autres collections et les associer, ou consulter la liste des documents actuellement associ&#233;s.</message>
 	<message key="xmlui.administrative.mapper.MapperMain.stat_label">Statistiques</message>
 	<message key="xmlui.administrative.mapper.MapperMain.stat_info"><strong>{0} de {1}</strong> documents de cette collection sont associ&#233;(s) &#224; partir d'autres collections</message>
-	<message key="xmlui.administrative.mapper.MapperMain.search_label">Recherche</message>
+	<message key="xmlui.administrative.mapper.MapperMain.search_label">Chercher</message>
 	<message key="xmlui.administrative.mapper.MapperMain.submit_search">Rechercher des documents</message>
 	<message key="xmlui.administrative.mapper.MapperMain.submit_browse">Parcourir les documents associ&#233;s</message>
 	<message key="xmlui.administrative.mapper.MapperMain.no_add">(N&#233;cessite les droits d'AJOUT pour la collection)</message>
@@ -2091,7 +2092,8 @@
 	<message key="xmlui.dri2xhtml.structural.logout">D&#233;connexion</message>
 	<message key="xmlui.dri2xhtml.structural.login">Ouvrir une session</message>
 
-	<message key="xmlui.dri2xhtml.structural.search">Chercher dans le d&#233;p&#244;t</message>
+	<!-- <message key="xmlui.dri2xhtml.structural.search">Chercher dans le d&#233;p&#244;t</message> -->
+	<message key="xmlui.dri2xhtml.structural.search">Chercher dans Yorkspace</message>
 	<message key="xmlui.dri2xhtml.structural.search-advanced">Recherche avanc&#233;e</message>
 	<message key="xmlui.dri2xhtml.structural.search-in-community">Cette communaut&#233;</message>
 	<message key="xmlui.dri2xhtml.structural.search-in-collection">Cette collection</message>
