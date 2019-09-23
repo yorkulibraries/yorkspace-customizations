@@ -25,14 +25,14 @@
 
  <!-- YorkSpace Custom Keys -->
         <message key="xmlui.custom.welcome_heading">Bienvenue à YorkSpace</message>
-        <message key="xmlui.custom.welcome_message">YorkSpace est le dépôt numérique de l'Université York. Il s'agit d’une plateforme qui donne un espace pour les membres de la communauté de York d’organiser et de préserver leur recherche dans un contexte institutionnel en ligne.  Il expose l'érudition de la communauté de l'Université York sur une plate-forme logicielle standardisée qui recueille des statistiques sur l'utilisation assurant ainsi sa diffusion et sa visibilité accru en ligne.</message>
-        <message key="xmlui.custom.welcome_learn_more">Pour en apprendre d’avantage sure YorkSpace, visitez </message>
-        <message key="xmlui.custom.welcome_learn_more.link">YorkSpace Resource Site</message>
+        <message key="xmlui.custom.welcome_message">YorkSpace est le dépôt institutionnel numérique de l'Université York. Il s'agit d’une plateforme pour les membres de la communauté de York qui souhaitent organiser et préserver leurs travaux de recherche en ligne dans un contexte institutionnel.  Il expose les travaux d’érudition de la communauté de l'Université York sur une plate-forme logicielle standardisée qui recueille des statistiques sur l'utilisation assurant ainsi sa diffusion et sa visibilité accru en ligne.</message>
+        <message key="xmlui.custom.welcome_learn_more">Pour en apprendre davantage sur YorkSpace, veuillez visiter le site de </message>
+        <message key="xmlui.custom.welcome_learn_more.link">ressources de YorkSpace</message>
 	
 	<!-- General keys -->
 	<!-- Correctif relatif a DS-1159 : "Hardcoded button display text in several XMLUI themes makes i18n difficult" -->
 	<message key="xmlui.general.addbutton">Ajouter</message>
-	<message key="xmlui.general.dspace_home">Accueil de YorkSpace</message>
+	<message key="xmlui.general.dspace_home">Accueil YorkSpace</message>
 	<message key="xmlui.general.search">Recherche</message>
 	<message key="xmlui.general.go">OK</message>
 	<message key="xmlui.general.go_home">Aller &#224; la page d'accueil de YorkSpace</message>
@@ -94,8 +94,31 @@
 	
 	
 	
-	
-	
+  <!-- org.dspace.app.xmlui.artifactbrowser.AdvancedSearch.java -->
+  <!-- Note: As of DSpace 6.0, org.dspace.app.xmlui.aspect.artifactbrowser.AdvancedSearch has been removed. -->
+  <!-- The following "type_*" i18n keys will be left as is as they're referenced by the Discovery's SidebarFacetsTransformer
+       but in future, they should be refactored to a more relevant key prefix -->
+  <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_author">Author</message>
+  <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_title">Title</message>
+  <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_subject">Subject</message>
+  <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_abstract">Abstract</message>
+  <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_series">Series</message>
+  <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_sponsor">Sponsor</message>
+  <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_identifier">Identifier</message>
+  <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_language">Language (ISO)</message>
+  <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_keyword">Keyword</message>
+
+ <!--  some common other possibilities for Advanced Search Fields -->
+ <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_contributor">Contributor</message>
+ <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_creator">Creator</message>
+ <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_description">Description</message>
+ <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_relation">Relation</message>
+ <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_mime">Mime-Type</message>
+ <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_other">Other Contributor</message>
+ <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_advisor">Advisor</message>
+ <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_department">Department</message>
+
+ <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_ANY">Full Text</message>
 	
 	
 	<!-- org.dspace.app.xmlui.artifactbrowser.AbstractSearch.java -->
@@ -194,6 +217,26 @@
 
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.item.dateaccessioned">Parcourir {0} par date de soumission {1}</message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.item.dateaccessioned">Parcourir {0} par date de soumission</message>
+
+	<!-- org.dspace.app.xmlui.administrative.WithdrawnItems.java -->
+	<message key="xmlui.Administrative.WithdrawnItems.title.item.title">Les documents retirés par titre</message>
+	<message key="xmlui.Administrative.WithdrawnItems.trail.item.title">Les documents retirés par titre</message>
+
+	<message key="xmlui.Administrative.WithdrawnItems.title.item.dateissued">Withdrawn Items by Issue Date</message>
+	<message key="xmlui.Administrative.WithdrawnItems.trail.item.dateissued">Withdrawn Items by Issue Date</message>
+
+	<message key="xmlui.Administrative.WithdrawnItems.title.item.dateaccessioned">Withdrawn Items by Submit Date</message>
+	<message key="xmlui.Administrative.WithdrawnItems.trail.item.dateaccessioned">Withdrawn Items by Submit Date</message>
+
+	<!-- org.dspace.app.xmlui.administrative.PrivateItems.java -->
+	<message key="xmlui.Administrative.PrivateItems.title.item.title">Les documents privés par titre</message>
+	<message key="xmlui.Administrative.PrivateItems.trail.item.title">Les documents privés par titre</message>
+
+	<message key="xmlui.Administrative.PrivateItems.title.item.dateissued">Private Items by Issue Date</message>
+	<message key="xmlui.Administrative.PrivateItems.trail.item.dateissued">Private Items by Issue Date</message>
+
+	<message key="xmlui.Administrative.PrivateItems.title.item.dateaccessioned">Private Items by Submit Date</message>
+	<message key="xmlui.Administrative.PrivateItems.trail.item.dateaccessioned">Private Items by Submit Date</message>
 
 	
 	<!-- org.dspace.app.xmlui.artifactbrowser.CollectionViewer.java -->
@@ -2368,4 +2411,44 @@
     <message key="xmlui.aspect.versioning.VersionNoticeTransformer.notice.workflow_version_help">Une version plus r&#233;cente de cet item-ci se trouve dans le Workflow.</message>
 
     <!-- End Versioning -->
+		
+		<!-- Discovery -->
+    <message key="xmlui.mirage2.itemSummaryView.MetaData">Metadata</message>
+    <message key="xmlui.mirage2.itemSummaryView.Collections">Collections</message>
+
+    <message key="xmlui.mirage2.discovery.reset">Reset</message>
+    <message key="xmlui.mirage2.discovery.newFilter">Add New Filter</message>
+    <message key="xmlui.mirage2.discovery.showAdvancedFilters">Afficher les filtres de recherche avancée</message>
+    <message key="xmlui.mirage2.discovery.hideAdvancedFilters">Hide Advanced Filters</message>
+
+
+    <message key="xmlui.mirage2.forms.instancedCompositeFields.add">Add</message>
+    <message key="xmlui.mirage2.forms.instancedCompositeFields.remove">Remove</message>
+    <message key="xmlui.mirage2.forms.instancedCompositeFields.noSuggestionError">ERROR: Input field with "suggest" (autocomplete) choice behavior is not implemented for Composite (e.g. "name") fields.</message>
+    <message key="xmlui.mirage2.forms.nonInstancedCompositeFields.noSuggestionError">ERROR: Input field with "suggest" (autocomplete) choice behavior is not implemented for Composite (e.g. "name") fields.</message>
+    <message key="xmlui.mirage2.forms.nonCompositeFieldSet.add">Add</message>
+    <message key="xmlui.mirage2.forms.nonCompositeFieldSet.remove">Remove</message>
+
+    <message key="xmlui.mirage2.page-structure.aboutThisRepository">About This Repository</message>
+    <message key="xmlui.mirage2.page-structure.toggleNavigation">Toggle navigation</message>
+
+    <message key="xmlui.mirage2.page-structure.heroUnit.title">About This Repository</message>
+    <message key="xmlui.mirage2.page-structure.heroUnit.content">To add your own content to this page, edit webapps/xmlui/themes/Mirage2/lib/xsl/core/page-structure.xsl and add your own content to the title, trail, and body. If you wish to add additional pages, you will need to create an additional xsl:when block and match the request-uri to whatever page you are adding. Currently, static pages created through altering XSL are only available under the URI prefix of page/.</message>
+
+    <message key="xmlui.mirage2.navigation.rss.feed">feed</message>
+
+    <message key="xmlui.mirage2.choice-authority-control.loading">Loading...</message>
+
+    <message key="xmlui.mirage2.item-list.thumbnail">Thumbnail</message>
+
+
+    <!-- org.dspace.app.xmlui.Submission.submit.StartSubmissionLookupStep -->
+    <message key="xmlui.Submission.submit.StartSubmissionLookupStep.submit_lookup">Rechercher</message>
+    <message key="xmlui.Submission.submit.StartSubmissionLookupStep.title">Publication Search</message>
+    <message key="xmlui.Submission.submit.StartSubmissionLookupStep.lookup_help">Fill in a publication ID, DOI, Title or Author and then press "Search".  A list of all matching publications will be shown to you to select in order to proceed with the submission process.</message>
+    <message key="xmlui.Submission.submit.StartSubmissionLookupStep.submit_publication_item">Imported publication Record</message>
+    <message key="xmlui.Submission.submit.progressbar.lookup">Lookup</message>
+				 
+	 <!-- End of Discovery -->
+	 
 </catalogue>
