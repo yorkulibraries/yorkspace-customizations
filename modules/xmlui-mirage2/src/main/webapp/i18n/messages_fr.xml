@@ -2449,6 +2449,30 @@
     <message key="xmlui.Submission.submit.StartSubmissionLookupStep.submit_publication_item">Imported publication Record</message>
     <message key="xmlui.Submission.submit.progressbar.lookup">Lookup</message>
 				 
+
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.contributor.author_browse">Browsing by: Author</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.title_browse">Browsing by: Title</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.subject_browse">Browsing by: Subject</message>
+        
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.description.abstract_browse">Browsing by: Abstract</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_series_browse">Browsing by: Series</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_sponsor_browse">Browsing by: Sponsor</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_identifier_browse">Browsing by: Identifier</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_language_browse">Browsing by: Language (ISO)</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_keyword_browse">Browsing by: Keyword</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_taxon_browse">Browsing by: Scientific Name</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_contributor_browse">Browsing by: Contributor</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_creator_browse">Browsing by: Creator</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_subject_browse">Browsing by: Subject</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_description_browse">Browsing by: Description</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_relation_browse">Browsing by: Relation</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_mime_browse">Browsing by: Mime-Type</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_other_browse">Browsing by: Other Contributor</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_advisor_browse">Browsing by: Advisor</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_department_browse">Browsing by: Department</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dateissued_dt_browse">Browsing by: Issue date</message>
+
+
 	 <!-- End of Discovery -->
 	 
 </catalogue>
